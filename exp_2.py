@@ -1,3 +1,5 @@
+# <----------------------------------- PART A ------------------------------------>
+
 import math # importing the math for sqrt func
 
 # taking input form the user
