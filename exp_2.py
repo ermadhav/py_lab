@@ -20,4 +20,13 @@
 # <----------------------------------- PART B ----------------------------------->
 
 import sys
-if(len(sys.argu)) != 3  
+if(len(sys.argv)) != 4:
+    print("addition of 3 arg using add.py <a> <b> ")
+    sys.exit(1)
+
+num1 = int(sys.argv[1])
+num2 = int(sys.argv[2])
+num3 = int(sys.argv[3])
+
+result = num1*num2*num3
+print(result)
