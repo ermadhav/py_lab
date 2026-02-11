@@ -8,9 +8,9 @@
 
 # <----------------------------------- PART B ----------------------------------->
 
-n = int(input("Enter a number: "))
-for i in range(1, 11):
-    print(f"the table of {n} is", i*n)
+# n = int(input("Enter a number: "))
+# for i in range(1, 11):
+#     print(f"the table of {n} is", i*n)
 
 # <----------------------------------- Practice ----------------------------------->
 
@@ -24,3 +24,16 @@ for i in range(1, 11):
 # else:
 #     print("dono se divisible nahi")
 
+# <----------------------------------- Practice ----------------------------------->
+
+# for i in range(1, 101):
+#     if(i % 2 == 0):
+#         print(f"{i} number is even")
+
+n = int(input("Enter the number you want to reverse: "))
+reverse =0
+while n != 0:
+    remainder = n % 10
+    reverse = reverse * 10 + remainder
+    num = num // 10
+print("reverse = ", reverse)
