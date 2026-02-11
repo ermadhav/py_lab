@@ -35,5 +35,7 @@ reverse =0
 while n != 0:
     remainder = n % 10
     reverse = reverse * 10 + remainder
-    num = num // 10
-print("reverse = ", reverse)
+    n = n // 10
+print("reverse = ",reverse)
+
+print("Reverse using function: ", n[::-1])
