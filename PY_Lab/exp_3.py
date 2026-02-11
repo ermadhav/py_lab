@@ -9,8 +9,8 @@
 # <----------------------------------- PART B ----------------------------------->
 
 n = int(input("Enter a number: "))
-for i in range(1, n+1):
-    print(f"the decimals of: 1/{i} =", 1/i)
+for i in range(1, 11):
+    print(f"the table of {n} is", i*n)
 
 # <----------------------------------- Practice ----------------------------------->
 
