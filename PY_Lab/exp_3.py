@@ -30,13 +30,13 @@
 #     if(i % 2 == 0):
 #         print(f"{i} number is even")
 
-# n = int(input("Enter the number you want to reverse: "))
-# reverse =0
-# while n != 0:
-#     remainder = n % 10
-#     reverse = reverse * 10 + remainder
-#     n = n // 10
-# print("reverse = ",reverse)
+n = int(input("Enter the number you want to reverse: "))
+reverse =0
+while n != 0:
+    remainder = n % 10
+    reverse = reverse * 10 + remainder
+    n = n // 10
+print("reverse = ",reverse)
 
-n = input("Enter the number you want to reverse: ")
-print("Reverse using function: ", n[::-1])
+# n = input("Enter the number you want to reverse: ")
+# print("Reverse using function: ", n[::-1])
