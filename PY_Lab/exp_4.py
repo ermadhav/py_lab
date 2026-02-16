@@ -12,3 +12,15 @@
 # while n >= 0:
 #     print(n)
 #     n -= 1
+
+
+# name = "MAdhav"
+# print(name[0:4])
+
+# data =[100, 200, 300, 400, 500, 600]
+# print(data[0:5
+
+a = {1,2,3}
+b = {3,5,6}
+print(a&b)
+
