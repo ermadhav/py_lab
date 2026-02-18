@@ -28,3 +28,9 @@ data =[100, 200, 300, 400, 500, 600]
 # a = {1,2,3}
 # b = {3,5,6}
 # print(a&b)
+
+append 
+insert
+extend
+remove
+pop
