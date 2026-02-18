@@ -17,9 +17,13 @@
 # name = "MAdhav"
 # print(name[0:4])
 
-# data =[100, 200, 300, 400, 500, 600]
-# print(data[0:5
+data =[100, 200, 300, 400, 500, 600]
+# print(data[0:5])
+# print(data[2::])
+# print(data[::2])
+print(data[0:5])
 
-a = {1,2,3}
-b = {3,5,6}
-print(a&b)
+
+# a = {1,2,3}
+# b = {3,5,6}
+# print(a&b)
