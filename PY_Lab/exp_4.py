@@ -21,7 +21,8 @@ data =[100, 200, 300, 400, 500, 600]
 # print(data[0:5])
 # print(data[2::])
 # print(data[::2])
-print(data[0:5])
+# print(data[::-1])
+print(data[1:5])
 
 
 # a = {1,2,3}
