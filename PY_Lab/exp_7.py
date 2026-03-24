@@ -15,12 +15,11 @@
 
 # ------------------- PART - 2 -------------------
 
-filename = "madhav.txt"
+filename = "madhav.c"
 
 with open(filename, "r") as file:
     text = file.read()
 
-# Frequency count (same as your code)
 freq = {}
 for ch in text:
     if ch in freq:
@@ -31,7 +30,6 @@ for ch in text:
 for key, value in freq.items():
     print(f"'{key}' : {value}")
 
-# Detect file type using extension
 if filename.endswith(".c"):
     print("\nThis is a C program file.")
 elif filename.endswith(".py"):
