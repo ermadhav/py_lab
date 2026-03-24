@@ -1,4 +1,5 @@
-with open("C:\\Users\\madha\\OneDrive\\Desktop\\py_lab\\PY_Lab\\madhav.txt", "r") as file:    text = file.read()
+with open("C:\\Users\\madha\\OneDrive\\Desktop\\py_lab\\PY_Lab\\madhav.txt", "r") as file:    
+    text = file.read()
 
 freq = {}
 
