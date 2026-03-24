@@ -1,5 +1,4 @@
-with open("madhav.txt", "r") as file:
-    text = file.read()
+with open("C:\\Users\\madha\\OneDrive\\Desktop\\py_lab\\PY_Lab\\madhav.txt", "r") as file:    text = file.read()
 
 freq = {}
 
@@ -10,4 +9,4 @@ for ch in text:
         freq[ch] = 1
 
 for key, value in freq.items():
-    print(f"'{key}' : {value}")
+    print(f"'{key}' : {value}") 
