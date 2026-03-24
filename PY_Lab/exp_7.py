@@ -15,7 +15,7 @@
 
 # ------------------- PART - 2 -------------------
 
-filename = "madhav.c"
+filename = r"C:\Users\madha\OneDrive\Desktop\py_lab\PY_Lab\exp7.c"
 
 with open(filename, "r") as file:
     text = file.read()
